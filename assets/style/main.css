@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header .banner-pattern{
+  height: 80px;
+  background-image: url("../img/pattern.png");
+  background-color: rgb(78, 160, 255);
+  background-size: 310px;
+  position: relative;
+}
+
+.title{
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.title.title-part-1{
+  font-size: .5em;
+  position: absolute;
+  bottom: 20px;
+  left: 13px;
+}
+
+.title.title-part-2{
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+}
