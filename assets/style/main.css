@@ -5,7 +5,7 @@ body{
 
 /* Header */
 .bottom-header, main, footer{
-  margin-left: 8px;
+  margin: 0 8px;
 }
 
 header .top-header{
@@ -55,4 +55,29 @@ header section img{
 
 header section div{
   font-size: 12px;
+}
+
+/* Main */
+
+main p .special{
+  background: yellow;
+}
+
+main table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+main table thead{
+  text-align: left;
+  color: white;
+  background-color: rgb(32, 170, 230);
+}
+
+main table thead .small-column{
+  width: 25%;
+}
+
+main tbody .azure-row{
+  background-color: rgb(177, 229, 242);
 }
