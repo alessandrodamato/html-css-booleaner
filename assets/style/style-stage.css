@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(210, 250, 246);
+}
+
+/* Header */
+.bottom-header, main, footer{
+  margin: 0 8px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+header .top-header{
+  height: 80px;
+  background-image: url("../img/pattern.png");
+  background-color: rgb(78, 160, 255);
+  background-size: 310px;
+  position: relative;
+}
+
+.title{
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.title.title-part-1{
+  position: absolute;
+  bottom: 32px;
+  left: 23px;
+}
+
+.title.title-part-2{
+  font-size: 2em;
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+}
+
+h1{
+  margin-bottom: 0;
+  color: rgb(60, 0, 255);
+}
+
+h4, h6{
+  color: rgb(212, 34, 87);
+  margin: 0;
+}
+
+header h4 a{
+  color: rgb(60, 0, 255);
+}
+
+header section img{
+  margin-top: 16px;
+}
+
+header section div{
+  font-size: 12px;
+  color: rgb(212, 34, 87);
+}
+
+/* Main */
+
+main p{
+  border-top: 1px solid rgb(212, 34, 87);
+  border-bottom: 1px solid rgb(212, 34, 87);
+}
+
+main p .special{
+  background: rgba(212, 34, 87, .7);
+}
+
+main table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+main table thead{
+  color: white;
+  background-color: rgb(212, 34, 87);
+}
+
+main table thead .small-column{
+  width: 25%;
+}
+
+main tbody .azure-row{
+  background-color: rgb(60, 0, 255);
+  color: white;
+}
+
+/* Footer */
+footer div{
+  width: 312px;
+  height: 208px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.monitor{
+  background-image: url(../img/monitor.jpg);
+}
+
+.graph{
+  background-image: url(../img/graph.jpg);
+}
