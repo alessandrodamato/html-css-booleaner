@@ -24,8 +24,8 @@ header .top-header{
 
 .title.title-part-1{
   position: absolute;
-  bottom: 30px;
-  left: 20px;
+  bottom: 32px;
+  left: 23px;
 }
 
 .title.title-part-2{
@@ -39,7 +39,7 @@ h1{
   margin-bottom: 0;
 }
 
-header h4, header h6{
+h4, h6{
   color: rgb(130, 130, 130);
   margin: 0;
 }
@@ -63,6 +63,10 @@ main p .special{
   background: yellow;
 }
 
+main ul{
+  padding: 16px;
+}
+
 main table{
   width: 100%;
   border-collapse: collapse;
@@ -80,4 +84,24 @@ main table thead .small-column{
 
 main tbody .azure-row{
   background-color: rgb(177, 229, 242);
+}
+
+/* Footer */
+footer div{
+  width: 312px;
+  height: 208px;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.monitor{
+  background-image: url(../img/monitor.jpg);
+}
+
+.graph{
+  background-image: url(../img/graph.jpg);
 }
