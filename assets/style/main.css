@@ -19,13 +19,13 @@ header .banner-pattern{
 }
 
 .title.title-part-1{
-  font-size: .5em;
   position: absolute;
-  bottom: 20px;
-  left: 13px;
+  bottom: 30px;
+  left: 20px;
 }
 
 .title.title-part-2{
+  font-size: 2em;
   position: absolute;
   bottom: 10px;
   left: 5px;
