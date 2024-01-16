@@ -3,10 +3,11 @@ body{
   box-sizing: border-box;
 }
 
-/* Header */
 .bottom-header, main, footer{
   margin: 0 8px;
 }
+
+/* Header */
 
 header .top-header{
   height: 80px;
@@ -64,7 +65,7 @@ main p .special{
 }
 
 main ul{
-  padding: 16px;
+  padding: 15px;
 }
 
 main table{
@@ -87,6 +88,7 @@ main tbody .azure-row{
 }
 
 /* Footer */
+
 footer div{
   width: 312px;
   height: 208px;

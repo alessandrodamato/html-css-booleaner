@@ -4,13 +4,14 @@ body{
   background-color: rgb(210, 250, 246);
 }
 
-/* Header */
 .bottom-header, main, footer{
   margin: 0 8px;
   text-align: center;
   width: 50%;
   margin: auto;
 }
+
+/* Header */
 
 header .top-header{
   height: 80px;
